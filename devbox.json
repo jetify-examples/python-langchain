@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.12"
+  ],
+  "env": {
+    "OPENAI_API_KEY": "<put_your_openai_api_key_here>"
+  },
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate"
+    ],
+    "scripts": {
+      "install": "pip install -r requirements.txt"
+    }
+  }
+}
