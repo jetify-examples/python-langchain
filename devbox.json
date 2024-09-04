@@ -3,9 +3,6 @@
   "packages": [
     "python@3.12"
   ],
-  "env": {
-    "OPENAI_API_KEY": "<put_your_openai_api_key_here>"
-  },
   "shell": {
     "init_hook": [
       ". $VENV_DIR/bin/activate"
